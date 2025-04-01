@@ -1,0 +1,22 @@
+name: azure_demo
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - langchain
+  - langchain-community
+  - pypdf
+  - pypdf2
+  - sentence-transformers
+  - faiss-cpu
+  - matplotlib
+  - pandas
+  - seaborn
+  - reportlab
+  - llama-cpp-python
+  - chardet
+  - python=3.12
+  - pip
+  - pip:
+    - streamlit
+    - streamlit_chat

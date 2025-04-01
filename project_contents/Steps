@@ -1,0 +1,29 @@
+pip install -U langchain-community
+#pip install faiss-gpu
+pip install pypdf
+pip install sentence-transformers
+conda install -c pytorch faiss-cpu
+conda install -c pytorch faiss-gpu
+
+
+Try 1:
+export KMP_DUPLICATE_LIB_OK=TRUE
+
+
+
+
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+os.environ['OMP_NUM_THREADS'] = '100'
+Try 2:
+conda install langchain -c conda-forge
+
+
+use the yml only
+pip3 install matplotlib
+pip3 install pandas
+pip3 install seaborn
+pip3 install PyPDF2
+
+
+
+
